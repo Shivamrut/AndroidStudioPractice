@@ -91,6 +91,7 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
         Spacer(
             modifier = Modifier
                 .height(32.dp)
+                
         )
         Button(onClick = {
             result = (1..6).random()
