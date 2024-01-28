@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">My Galary</string>
+
+    <string name="WW_Q">Every man dies but not every man really lives.</string>
+    <string name="WW">William Wallace</string>
+
+    <string name="RF_Q">In three words I can sum up everything I\'ve learned about life: it goes on.</string>
+    <string name="RF">Robert Frost</string>
+
+    <string name="SJ_Q">The only way to do great work is to love what you do.</string>
+    <string name="SJ">Steve Jobs</string>
+
+    <string name="RD_Q">I think, therefore I am.</string>
+    <string name="RD">René Descartes</string>
+
+    <string name="S_Q">The only true wisdom is in knowing you know nothing.</string>
+    <string name="S">Socrates</string>
 </resources>
+
