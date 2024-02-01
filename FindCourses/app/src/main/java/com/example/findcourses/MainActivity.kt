@@ -144,45 +144,45 @@ fun CourseList2(dataList: List<CourseData>, modifier: Modifier = Modifier) {
     }
 }
 
-@Preview
-    (
-    showSystemUi = true,
-    showBackground = true
-)
-@Composable
-fun CoursesPreview() {
-    FindCoursesTheme {
-        CourseList(dataList = Course().loadCoursesData())
-
-    }
-}
-
 //@Preview
 //    (
-////    showSystemUi = true,
-////    showBackground = true
+//    showSystemUi = true,
+//    showBackground = true
 //)
 //@Composable
-//fun CoursesPreview2() {
+//fun CoursesPreview() {
 //    FindCoursesTheme {
+//        CourseList(dataList = Course().loadCoursesData())
 //
-//        CourseCard(
-//            data = CourseData(R.drawable.architecture, R.string.architecture),
-//            modifier = Modifier
-//
-//        )
 //    }
 //}
 
 @Preview
     (
-    showSystemUi = true,
-    showBackground = true
+//    showSystemUi = true,
+//    showBackground = true
 )
 @Composable
-fun CoursesPreview3() {
+fun CoursesPreview2() {
     FindCoursesTheme {
-        CourseList2(dataList = Course().loadCoursesData())
 
+        CourseCard(
+            data = CourseData(R.drawable.architecture, R.string.architecture),
+            modifier = Modifier
+
+        )
     }
 }
+
+//@Preview
+//    (
+//    showSystemUi = true,
+//    showBackground = true
+//)
+//@Composable
+//fun CoursesPreview3() {
+//    FindCoursesTheme {
+//        CourseList2(dataList = Course().loadCoursesData())
+//
+//    }
+//}
